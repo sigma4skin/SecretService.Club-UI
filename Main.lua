@@ -348,6 +348,7 @@ local UserInterface = (function() -- src/Lua/Interface/Interface.Lua
         UI["a"]["BackgroundTransparency"] = 1
         UI["a"]["Size"] = UDim2New(0, 452, 0, 19)
         UI["a"]["BorderColor3"] = Color3FromRGB(0, 0, 0)
+        UI["a"]["Text"] = [[created by sigmaman]]
         UI["a"]["Position"] = UDim2New(0, 96, 0, 428)
 
         UI["b"] = InstanceNew("Frame", UI["2"])
