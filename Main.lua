@@ -25,16 +25,16 @@ if not getgenv().load_game then
     getgenv().load_game = "da_hood"
 end
 
-if not isfolder("drax") then
+if not isfolder("secretservice") then
     makefolder("drax")
 end
 
-if not isfolder("drax/configs") then
-    makefolder("drax/configs")
+if not isfolder("secretservice/configs") then
+    makefolder("secretservice/configs")
 end
 
-if not isfolder("drax/configs/da_hood") then
-    makefolder("drax/configs/da_hood")
+if not isfolder("secretservice/configs/bloxstrike") then
+    makefolder("secretservice/configs/bloxstrike")
 end
 
 -- make services global. self-explanatory.
