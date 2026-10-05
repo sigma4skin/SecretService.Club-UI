@@ -26,7 +26,7 @@ if not getgenv().load_game then
 end
 
 if not isfolder("secretservice") then
-    makefolder("drax")
+    makefolder("secretservice")
 end
 
 if not isfolder("secretservice/configs") then
