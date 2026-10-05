@@ -284,7 +284,7 @@ local UserInterface = (function() -- src/Lua/Interface/Interface.Lua
         end
 
         UI["1"] = InstanceNew("ScreenGui", coreguiService)
-        UI["1"]["Name"] = [[syndicate.club]]
+        UI["1"]["Name"] = [[secretservice.club]]
         UI["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Global
 
         UI["2"] = InstanceNew("Frame", UI["1"])
