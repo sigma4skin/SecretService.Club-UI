@@ -323,7 +323,7 @@ local UserInterface = (function() -- src/Lua/Interface/Interface.Lua
         UI["6"] = InstanceNew("Frame", UI["2"])
         UI["6"]["BackgroundColor3"] = Color3FromRGB(255, 255, 255)
         UI["6"]["Size"] = UDim2New(0, 1, 0, 16)
-        UI["6"]["Position"] = UDim2New(0, 98, 0, 14)
+        UI["6"]["Position"] = UDim2New(0, 124, 0, 14)
         UI["6"]["BorderColor3"] = Color3FromRGB(0, 0, 0)
         UI["6"]["Name"] = [[BackgroundAccent]]
 
