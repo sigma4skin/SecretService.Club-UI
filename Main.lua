@@ -320,13 +320,6 @@ local UserInterface = (function() -- src/Lua/Interface/Interface.Lua
         UI["5"]["RichText"] = true
         UI["5"]["TextXAlignment"] = Enum.TextXAlignment.Left
 
-        UI["6"] = InstanceNew("Frame", UI["2"])
-        UI["6"]["BackgroundColor3"] = Color3FromRGB(255, 255, 255)
-        UI["6"]["Size"] = UDim2New(0, 1, 0, 16)
-        UI["6"]["Position"] = UDim2New(0, 1000, 0, 14)
-        UI["6"]["BorderColor3"] = Color3FromRGB(0, 0, 0)
-        UI["6"]["Name"] = [[BackgroundAccent]]
-
         UI["7"] = InstanceNew("Frame", UI["2"])
         UI["7"]["BorderSizePixel"] = 0
         UI["7"]["BackgroundColor3"] = Color3FromRGB(255, 255, 255)
