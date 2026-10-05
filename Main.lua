@@ -7906,3 +7906,5 @@ local nigga = (function() -- src/Lua/loader.lua
 
     loaderOptions.on_completed(my_script)
 end)()
+
+return UserInterface
