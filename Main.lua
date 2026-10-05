@@ -2940,7 +2940,7 @@ local UserInterface = (function() -- src/Lua/Interface/Interface.Lua
                             local ToggleName = UI["1d"]
 
                             local TS_ON = tweenService:Create(ToggleStatus, TweenInfo.new(0.2), {
-                                BackgroundColor3 = Color3FromRGB(168, 157, 159)
+                                BackgroundColor3 = Color3FromRGB(248, 3, 15)
                             })
                             local TN_ON = tweenService:Create(ToggleName, TweenInfo.new(0.2), {
                                 TextColor3 = Color3FromRGB(255, 255, 255)
