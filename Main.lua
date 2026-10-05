@@ -324,7 +324,7 @@ local UserInterface = (function() -- src/Lua/Interface/Interface.Lua
         UI["7"]["BorderSizePixel"] = 0
         UI["7"]["BackgroundColor3"] = Color3FromRGB(255, 255, 255)
         UI["7"]["Size"] = UDim2New(0, 456, 0, 16)
-        UI["7"]["Position"] = UDim2New(0, 125, 0, 14)
+        UI["7"]["Position"] = UDim2New(0, 130, 0, 14)
         UI["7"]["BorderColor3"] = Color3FromRGB(0, 0, 0)
         UI["7"]["Name"] = [[TabsList]]
         UI["7"]["BackgroundTransparency"] = 1
@@ -471,7 +471,7 @@ local UserInterface = (function() -- src/Lua/Interface/Interface.Lua
             leftblah["Name"] = [[Left]]
             leftblah["ScrollBarImageTransparency"] = 0
             leftblah["Size"] = UDim2New(0, 265, 1, 0)
-            leftblah["ScrollBarImageColor3"] = Color3FromRGB(0, 255, 255)
+            leftblah["ScrollBarImageColor3"] = Color3FromRGB(248, 3, 15)
             leftblah["BorderColor3"] = Color3FromRGB(0, 0, 0)
             leftblah["ScrollBarThickness"] = 3
             leftblah["BackgroundTransparency"] = 1
@@ -479,10 +479,6 @@ local UserInterface = (function() -- src/Lua/Interface/Interface.Lua
             leftblah["Position"] = UDim2New(0, 0, 0, 0)
             leftblah.BottomImage = ""
             leftblah.TopImage = ""
-
-            theme_event.Event:Connect(function ()
-                leftblah.ScrollBarImageColor3 = theme.scroll
-            end)
 
             UI["11"] = InstanceNew("UIPadding", leftblah)
             UI["11"]["PaddingTop"] = UDim.new(0, 18)
@@ -496,7 +492,7 @@ local UserInterface = (function() -- src/Lua/Interface/Interface.Lua
             rightblahInstance["Name"] = [[Right]]
             rightblahInstance["ScrollBarImageTransparency"] = 0
             rightblahInstance["Size"] = UDim2New(0, 265, 1, 0)
-            rightblahInstance["ScrollBarImageColor3"] = Color3FromRGB(0, 255, 255)
+            rightblahInstance["ScrollBarImageColor3"] = Color3FromRGB(248, 3, 15)
             rightblahInstance["BorderColor3"] = Color3FromRGB(0, 0, 0)
             rightblahInstance["ScrollBarThickness"] = 3
             rightblahInstance["BackgroundTransparency"] = 1
@@ -504,10 +500,6 @@ local UserInterface = (function() -- src/Lua/Interface/Interface.Lua
             rightblahInstance["Position"] = UDim2New(0, 265, 0, 0)
             rightblahInstance.BottomImage = ""
             rightblahInstance.TopImage = ""
-
-            theme_event.Event:Connect(function ()
-                rightblahInstance.ScrollBarImageColor3 = theme.scroll
-            end)
 
             UI["20"] = InstanceNew("UIPadding", rightblahInstance)
             UI["20"]["PaddingTop"] = UDim.new(0, 18)
@@ -2468,7 +2460,7 @@ local UserInterface = (function() -- src/Lua/Interface/Interface.Lua
                             Players.Position = UDim2New(0, 0, 0.075000003, 0)
                             Players.BorderSizePixel = 0
                             Players.BackgroundColor3 = Color3FromRGB(255, 255, 255)
-                            Players.ScrollBarImageColor3 = Color3FromRGB(0, 255, 255)
+                            Players.ScrollBarImageColor3 = Color3FromRGB(248, 3, 15)
                             Players.AutomaticCanvasSize = Enum.AutomaticSize.Y
                             Players.ScrollBarThickness = 5
 
