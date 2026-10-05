@@ -272,7 +272,7 @@ local UserInterface = (function() -- src/Lua/Interface/Interface.Lua
         }
 
         local Texts = {
-            "user",
+            "",
         }
 
         local function ChangeText(Object, NewText) -- this is for the thing in the top-right in the ui what
