@@ -191,7 +191,7 @@ local UserInterface = (function() -- src/Lua/Interface/Interface.Lua
     getgenv().uishit = UserInterface
 
     getgenv().theme = {
-        accent = Color3FromRGB(168, 157, 159)
+        accent = Color3FromRGB(248, 3, 15)
     }
 
     getgenv().theme_event = Instance.new('BindableEvent')
@@ -268,7 +268,7 @@ local UserInterface = (function() -- src/Lua/Interface/Interface.Lua
     function UserInterface:Create(OptionsLaughtOutLouds)
         local Configuration = {
             Tabs = {},
-            Title = OptionsLaughtOutLouds.title or 'syndicate<font color="rgb(129, 127, 127)">.club</font>'
+            Title = OptionsLaughtOutLouds.title or 'syndicate<font color="rgb(248, 3, 15)">.club</font>'
         }
 
         local Texts = {
